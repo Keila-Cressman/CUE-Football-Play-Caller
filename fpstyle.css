@@ -1,0 +1,296 @@
+/*
+Authors: Max Kirin, Diego Rojo, Keila Cressman & Grace Imanariyo
+fpstyle.css
+
+This creates the style we want to implement on our webpage frontpage 
+and our help page as well
+*/ 
+
+
+
+/*
+The wrapper is our main div on which contents and other divs are displayed. We set
+a background image of a football field*/
+.wrapper1{
+	background-image:url(field2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 77%;
+	border: 2px solid black;
+	width:100%;
+	height:750px;
+	font-size:14pt;
+	color: white;
+	position:relative;
+
+	border-radius: 20px;
+
+	opacity:.8;
+
+}
+
+/*
+Setting the title in the wrapper div to be alligned in the center*/
+.wrapper1 h1, p
+{
+		text-align:center;
+}
+
+
+/*formatting all legends and selct options on our forms*/
+legend
+{
+	text-align:center;
+	margin-left:50%;
+	margin-right:50%;
+}
+
+select
+{
+	display:inline-block;
+	position:relative;
+}
+
+/*certain information that we print we want to appear red, to show urgency to the user*/
+#playinfo
+{
+	color:red;
+	font-size:10pt;
+	text-align: left;
+}
+
+/*implements our background on all of our pages, and formats our fonts we use to be consistent*/
+body
+{
+	background-size: 1000px 1000px;
+
+	font-family:courier,arial,helvetica;
+	background-color: #1f7a1f;
+	position:relative;
+
+}
+
+/*fixing our fields to display more evenly on the screen*/
+fieldset
+{
+	margin: auto;
+	/*padding:20px;*/
+	width:90%;
+	/*height:40%;*/
+	border:displayed;
+	border-color:white;
+	border-radius:1px;
+	border-style:solid;
+	font-weight:bold;
+	font-family:courier,arial,helvetica;
+}
+
+/*formatting our lists, used on the help page*/
+li,ul{
+	padding-left:5px;
+	padding-right:5px;
+	font-size:10pt;
+}
+
+/*our descriptions for textfields*/
+label
+{
+	position:relative;
+	padding-left:-20px;
+	padding-right:-20px;
+}
+
+/*all input fields are centered*/
+input{
+	position:auto;
+}
+
+/*This is where the main contents and the wrapper div will be placed*/
+.section
+{
+	position:relative;
+	width:100%;
+	height:200px;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	padding:10px;
+	font-family:courier,arial,helvetica;
+
+}
+
+/*The setting for the FootBall Play caller main title*/
+.section h3
+{
+
+	text-align: center;
+	font-size: 6rem;
+	font-family: "cookie";
+	/*background:lightgreen;
+	padding:20px;
+	margin:15px;*/
+	z-index:1;
+	opacity:.9;
+
+}
+
+/*The setting behavior for the Results header to be displayed. The characteristics 
+displayed below*/
+.section h1
+{
+
+	text-align: center;
+	font-size: 6rem;
+	font-family: "cookie";
+	/*background:lightgreen;*/
+	padding:15px;
+	margin:10px;
+	z-index:1;
+	opacity:.7;
+
+}
+
+/*The setting for the video to be properly aligned*/
+.video-container
+{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:80vh;
+}
+
+/*The setting to better set the colors of the website*/
+.color-overlay
+{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#29a329;
+	width:100%;
+	height:100vh;
+	opacity:0.3;
+}
+
+/*The characteristics of the div in which data will be entered*/
+.container1
+{
+	margin-left:30px;
+	border-color:white;
+	border-radius:2px;
+	border-style:solid;
+	width:43%;
+	height:80%;
+	float:left;
+	opacity:0.9;
+	font-family:courier,arial,helvetica;
+	padding:10px;
+
+}
+
+
+/*The characteristics of the div in which data will be displayed*/
+.container2
+{
+	margin-right:40px;
+	border-color:white;
+	border-radius:2px;
+	border-style:solid;
+	width:43%;
+	height:80%;
+	float:right;
+	display:inline-block;
+	font-family:courier,arial,helvetica;
+	font-weight:bold;
+	text-align:left;
+	padding: 10px;
+	visibility: hidden;
+}
+
+/*The characteristics of the div in which data on the help page will be displayed*/
+.container3
+{
+	margin-left:30px;
+	border-color:white;
+	border-radius:2px;
+	border-style:solid;
+	width:43%;
+	height:80%;
+	float:left;
+	opacity:0.9;
+	font-family:courier,arial,helvetica;
+	padding:10px;
+}
+
+/*The characteristics of the div in which data on the help page will be displayed*/
+.container4
+{
+	margin-right:40px;
+	border-color:white;
+	border-radius:2px;
+	border-style:solid;
+	width:43%;
+	height:80%;
+	float:right;
+	display:inline-block;
+	font-family:courier,arial,helvetica;
+	font-weight:bold;
+	text-align:left;
+	padding: 10px;
+}
+
+/*The characteristics of the Submit button, for the text to be alligned
+in the middle*/
+.hitsubmit
+{
+	text-align:center;
+}
+
+/*These are the settings of the table to have specific size and 
+to be know where to be alligned*/
+table {
+  border-collapse: collapse;
+  border-radius:1px;
+  border-color:white;
+  border-style:solid;
+  width:90%;
+  margin-top:10px;
+  font-weight:bold;
+  font-family:courier,arial,helvetica;
+  padding:8px;
+  margin: auto;
+}
+
+/*These are the settings of the table headers and rows*/
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border-radius:1px;
+  border-color:white;
+  border-style:solid;
+}
+
+th{
+	text-align:center;
+}
+
+#home
+{
+	text-align:center;
+}
+
+/*These are the settings for the help page*/
+.helpDiv
+{	
+    border-radius:1px;
+	border-color:white;
+	border: 1px solid #dddddd;
+	border-radius:4px;
+	height:70%;
+	width:60%;
+	padding:20px;
+	margin-left:10%;
+	text-align:center;
+	
+}
